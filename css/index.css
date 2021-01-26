@@ -1,0 +1,89 @@
+body {
+    font-family: Roboto, serif;
+    background-color: #00497c;
+    color: white;
+    font-size: 25px;
+    min-width: 1510px;
+}
+
+.title {
+    margin-left: 135px;
+    margin-right: 135px;
+}
+
+.navBar{
+    background-color: #003153;
+    margin-left: 135px;
+    margin-right: 135px;
+    padding: 10px;
+    border-width: thick;
+    border-style: outset;
+    border-color: #00365b;
+}
+
+.content {
+    background-color: #74b3df;
+    color: black;
+    margin-left: 135px;
+    margin-right: 135px;
+    height: 500px;
+    padding: 15px;
+    border-style: inset;
+    border-width: thick;
+    border-color: #68a1c9;
+}
+
+.footer {
+    background-color: #003153;
+    margin-left: 135px;
+    margin-right: 135px;
+    border-width: thick;
+    border-style: outset;
+    border-color: #00365b;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#caption {
+    font-family: serif;
+    color: #707070;
+    width: 500px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.navBar #navButton {
+    border-style: outset;
+    border-width: thick;
+    border-color: #00365b;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+            
+.navBar #spacing {
+    width: 75px;
+}
+
+.bottomNavBar {
+    margin-left: 310px;
+    margin-right: 310px;
+    font-size: 20px;
+}
+            
+.bottomNavBar #spacing {
+    width: 30px;
+}
+
+@font-face {
+    font-family: Itim;
+    src: url(../other/Itim-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../other/Roboto-Regular.ttf);
+}
