@@ -6,22 +6,20 @@ body {
     min-width: 1510px;
 }
 
-.title {
+header {
     margin-left: 135px;
     margin-right: 135px;
 }
 
-.navBar{
+nav{
     background-color: #003153;
-    margin-left: 135px;
-    margin-right: 135px;
-    padding: 10px;
+    margin: 0px 135px;
     border-width: thick;
     border-style: outset;
     border-color: #00365b;
 }
 
-.content {
+article {
     background-color: #74b3df;
     color: black;
     margin-left: 135px;
@@ -31,15 +29,17 @@ body {
     border-style: inset;
     border-width: thick;
     border-color: #68a1c9;
+    text-align: justify;
 }
 
-.footer {
+footer {
     background-color: #003153;
     margin-left: 135px;
     margin-right: 135px;
     border-width: thick;
     border-style: outset;
     border-color: #00365b;
+    text-align: center;
 }
 
 a {
@@ -49,13 +49,14 @@ a {
 
 #caption {
     font-family: serif;
-    color: #707070;
+    color: #1a1a1a;
     width: 500px;
     font-size: 15px;
     font-style: italic;
+    text-align: left;
 }
 
-.navBar #navButton {
+nav #navButton {
     border-style: outset;
     border-width: thick;
     border-color: #00365b;
@@ -64,7 +65,7 @@ a {
     text-align: center;
 }
             
-.navBar #spacing {
+nav #spacing {
     width: 75px;
 }
 
