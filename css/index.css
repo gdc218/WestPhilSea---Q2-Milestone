@@ -47,7 +47,7 @@ a {
     text-decoration: none;
 }
 
-#caption {
+.caption {
     font-family: serif;
     color: #1a1a1a;
     width: 500px;
