@@ -1,3 +1,3 @@
-# westphilsea.com
+# westphilsea.com - Q2 Milestone Repository
 Repository for westphilsea.com files
-For CS3 Projects and Project Milestones
+  For CS3 Project Milestone Q2
