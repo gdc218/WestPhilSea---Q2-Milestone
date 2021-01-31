@@ -49,17 +49,35 @@ a {
     width: 1200px;
 }
 
-nav #navButton {
+nav a {
+    display: table-cell;
+}
+
+nav a:link {
     border-style: outset;
     border-width: thick;
     border-color: #00365b;
-    width: 250px;
+    text-align: center; 
+    width: 300px;
     height: 50px;
-    text-align: center;
 }
-            
-nav #spacing {
-    width: 75px;
+
+nav a:visited {
+    border-style: outset;
+    border-width: thick;
+    border-color: #00365b;
+    text-align: center; 
+    width: 300px;
+    height: 50px;
+}
+
+nav a:hover {
+    font-size: 35px;
+    width: 400px;
+}
+
+nav a:active {
+    border-style: inset;
 }
 
 article .references{
@@ -79,7 +97,7 @@ article .references a {
 }
             
 .bottomNavBar #spacing {
-    width: 30px;
+    width: 20px;
 }
             
 .caption {
@@ -92,6 +110,41 @@ article .references a {
 #contentHeader {
     text-align: center;
     font-size: 50px;
+}
+
+.facebook {
+    background: url('../images/spritePack.png') no-repeat -142px -32px;
+	width: 65px;
+	height: 65px;
+    float: left;
+    padding-right: 10px;
+}
+
+.facebook:hover {
+    background: url('../images/spritePack.png') no-repeat -39px -33px;
+}
+
+.youtube {
+    background: url('../images/spritePack.png') no-repeat -146px -131px;
+	width: 65px;
+	height: 65px;
+    float: left;
+    padding-right: 10px;
+}
+
+.youtube:hover {
+    background: url('../images/spritePack.png') no-repeat -39px -131px;
+}
+
+.twitter {
+    background: url('../images/spritePack.png') no-repeat -143px -219px;
+	width: 65px;
+	height: 65px;
+    float: left;
+}
+
+.twitter:hover {
+    background: url('../images/spritePack.png') no-repeat -39px -219px;
 }
 
 @font-face {
