@@ -80,6 +80,15 @@ nav a:active {
     border-style: inset;
 }
 
+aside {
+    float: right;
+    width: 100px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(87, 200, 235, 0.5);
+    margin-right: 20px;
+}
+
 article .references{
     font-size: 15px;
 }
